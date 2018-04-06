@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.rockymadden.stringmetric:stringmetric-core:0.25.3:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.rockymadden.stringmetric/stringmetric-core/jars/stringmetric-core-0.25.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.rockymadden.stringmetric/stringmetric-core/srcs/stringmetric-core-0.25.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
