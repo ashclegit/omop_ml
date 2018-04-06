@@ -4,7 +4,6 @@ import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.functions;
 import scala.math.min
 
-
 object connectToPostgres {
 
   def main(args: Array[String]): Unit = {
@@ -27,6 +26,7 @@ object connectToPostgres {
     val sDF1 = spark.read.format("jdbc").options(Map("url" -> url,"dbtable" -> table1)).load()
     val sDF2 = spark.read.format("jdbc").options(Map("url" -> url,"dbtable" -> table2)).load()
 
+    //separate string arrays to store the column names
     var a1 = new Array[String](sDF1.columns.length)
     var a2 = new Array[String](sDF2.columns.length)
 
@@ -79,7 +79,4 @@ object connectToPostgres {
     }
     dp(string1.length)(string2.length)
   }
-
-
-
 }
