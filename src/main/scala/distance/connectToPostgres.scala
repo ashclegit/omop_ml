@@ -2,6 +2,7 @@ package distance
 
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.functions;
+//import com.rockymadden.stringmetric.similarity.LevenshteinMetric
 import scala.math.min
 
 object connectToPostgres {
@@ -20,6 +21,7 @@ object connectToPostgres {
       .appName("calculate distance")
       .config("spark.master", "local")
       .getOrCreate()
+
 
 
     //read data from the individual tables and load into separate dataframes
