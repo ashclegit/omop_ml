@@ -79,16 +79,20 @@ object jdbcSimple {
     }
 
     var resListOMOP = resColumnDataOMOP.toList.sorted
-    displayResult(resListOMOP)
     var resListOMOPCDW = resColumnDataOMOPCDW.toList.sorted
-    displayResult(resListOMOPCDW)
+    var resColumnManipulated = new ListBuffer[String]()
+
+    manipulateColValues(resListOMOPCDW,resColumnManipulated)
+    var manColValues = resColumnManipulated.toList
 
     var j = 0
     var i = 0
 
-    while(i < resListOMOP.length && j < resListOMOPCDW.length)
+    while(i < resListOMOP.length && j < manColValues.length)
     {
-      println(distanceBetweenColumns(resListOMOP(i).toString,resListOMOPCDW(j).toString))
+      print(resListOMOP(i).toString + "   " + manColValues(j).toString + " ")
+      print(distanceBetweenColumns(resListOMOP(i).toString,manColValues(j).toString))
+      println("")
       i = i+1
       j = j+1
     }
@@ -124,6 +128,14 @@ object jdbcSimple {
     for(i <- 0 until strings.length)
       {
         resBuffer += strings(i)
+      }
+  }
+
+  def manipulateColValues(strings: scala.List[String], revBuffer: ListBuffer[String]): Unit =
+  {
+    for(i <- 0 until strings.length)
+      {
+        revBuffer += strings(i).reverse
       }
   }
 
