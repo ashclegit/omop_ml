@@ -44,9 +44,6 @@ object jdbcSimple {
     import spark.implicits._
 
     val connectionProperties = new Properties()
-
-    println(jdbcUrlOmopDB)
-    println(jdbcUrlOmopCDWDB)
     connectionProperties.put("user", "pguser" )
     connectionProperties.put("password", "test")
 
