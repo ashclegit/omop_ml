@@ -53,7 +53,7 @@ object jdbcSimple {
 
     //var resColumnData: java.util.List[String] = null
     var columnListJava: java.util.List[String] = null
-    var resColumnData = new ListBuffer[String]()
+    var resColumnDataOMOP = new ListBuffer[String]()
 
     for(i <- 0 until tableListOMOP.length)
       {
@@ -62,26 +62,25 @@ object jdbcSimple {
           "dbtable" -> s"(SELECT column_name  FROM information_schema.columns WHERE table_schema = 'public'  AND table_name  = '$tableName') vocab_alias")
         ).load()
        val columnList = dfColumnDataOMOP.select("column_name").map(_.getString(0)).collect.toList
-       addToResult(columnList,resColumnData)
+       addToResult(columnList,resColumnDataOMOP)
       }
 
-    var resList = resColumnData.toList
-    displayResult(resList)
-    /*val dfColumnDataOMOP = spark.read.format("jdbc").options(Map("url" -> jdbcUrlOmopDB,
-      "dbtable" -> s"(SELECT column_name  FROM information_schema.columns WHERE table_schema = 'public'  AND table_name  = 'concept') vocab_alias")
-    ).load()
-    val columnList = dfColumnDataOMOP.select("column_name").map(_.getString(0)).collect.toList
-    for(i <- 0 until columnList.length)
+    var resColumnDataOMOPCDW = new ListBuffer[String]()
+
+    for(i <- 0 until tableListOMOPCDW.length)
     {
-      resColumnData += columnList(i)
+      var tableName = tableListOMOPCDW(i)
+      val dfColumnDataOMOPCDW = spark.read.format("jdbc").options(Map("url" -> jdbcUrlOmopCDWDB,
+        "dbtable" -> s"(SELECT column_name  FROM information_schema.columns WHERE table_schema = 'public'  AND table_name  = '$tableName') vocab_alias")
+      ).load()
+      val columnList = dfColumnDataOMOPCDW.select("column_name").map(_.getString(0)).collect.toList
+      addToResult(columnList,resColumnDataOMOPCDW)
     }
 
-    var resList = resColumnData.toList
-    for(i <- 0 until resList.length)
-    {
-      println(resList(i))
-    }*/
-
+    var resListOMOP = resColumnDataOMOP.toList
+    displayResult(resListOMOP)
+    var resListOMOPCDW = resColumnDataOMOPCDW.toList
+    displayResult(resListOMOPCDW)
 
   }
 
