@@ -83,8 +83,6 @@ object jdbcSimple {
     var resListOMOPCDW = resColumnDataOMOPCDW.toList.sorted
     displayResult(resListOMOPCDW)
 
-
-
     var j = 0
     var i = 0
 
@@ -126,31 +124,6 @@ object jdbcSimple {
     for(i <- 0 until strings.length)
       {
         resBuffer += strings(i)
-      }
-  }
-
-  def displayResult(strings: scala.List[String]): Unit =
-  {
-    for(i <- 0 until strings.length)
-    {
-      println(strings(i))
-    }
-  }
-
-  def addToFinalList(columnListJava: java.util.List[String], resColumnData: java.util.List[String]): Unit =
-  {
-
-    for(i <- 0 until columnListJava.size())
-      {
-        resColumnData.add(columnListJava.get(i))
-      }
-  }
-
-  def display(strings: java.util.List[String]): Unit =
-  {
-    for(i <- 0 until strings.size())
-      {
-        println(strings.get(i))
       }
   }
 
