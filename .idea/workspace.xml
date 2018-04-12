@@ -4,11 +4,19 @@
     <list default="true" id="acac8e83-9f82-43fc-b1d6-a419692fd2db" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" afterPath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$addToFinalList$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$display$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$displayResult$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$addToResult$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$addToResult$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$main$1$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$main$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$main$2$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$main$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$manipulateColValues$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$manipulateColValues$1.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +49,8 @@
       <file leaf-file-name="jdbcSimple.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1685">
-              <caret line="126" column="3" lean-forward="true" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
+            <state relative-caret-position="600">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#18#58#0" expanded="true" />
               </folding>
@@ -108,10 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,6 +154,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,12 +385,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08222491" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08464329" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -409,6 +417,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -468,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1685">
-          <caret line="126" column="3" lean-forward="true" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#18#58#0" expanded="true" />
           </folding>
