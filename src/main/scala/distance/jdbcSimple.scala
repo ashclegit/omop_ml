@@ -1,22 +1,9 @@
 package distance
 
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions
-import java.{sql, util}
+import org.apache.spark.sql.{DataFrame, SparkSession, functions}
 import java.util.Properties
-import java.sql.DriverManager
-
-import org.apache.spark.sql
-import java.util.ArrayList
-import java.util.List
-
-import collection.JavaConverters._
 import collection.mutable._
-import scala.collection.mutable
-import scala.collection.mutable.ListBuffer;
 import scala.math.min
-
-import java.io.{BufferedWriter, FileWriter}
 
 
 object jdbcSimple {
@@ -30,7 +17,7 @@ object jdbcSimple {
     connectionProperties.put("password", "test")
 
     //store all the tables in a dataframe
-    val dfTableDataOmop = spark.read.format("jdbc").options(Map("url" -> jdbcUrlOmopDB,
+    val dfTableDataOmop: DataFrame = spark.read.format("jdbc").options(Map("url" -> jdbcUrlOmopDB,
       "dbtable" -> "(select table_name from information_schema.tables where table_schema ='public') vocab_alias")
     ).load()
 
@@ -38,56 +25,35 @@ object jdbcSimple {
       "dbtable" -> "(select table_name from information_schema.tables where table_schema ='public') vocab_alias")
     ).load()
 
-    val tableListOMOP = dfTableDataOmop.select("table_name").map(_.getString(0)).collect.toList
+    val tableListOMOP: List[String] = dfTableDataOmop.select("table_name").map(_.getString(0)).collect.toList
     val tableListOMOPCDW = dfTableDataOmopCDW.select("table_name").map(_.getString(0)).collect.toList
 
-    //store all the columns of all tables in a final dataframe for omop database
-    var columnListJava: java.util.List[String] = null
-    var resColumnDataOMOP = new ListBuffer[String]()
-
-    for(i <- 0 until tableListOMOP.length)
-    {
-      var tableName = tableListOMOP(i)
+    val resColumnDataOMOP: List[String] = tableListOMOP.flatMap{ tableName: String =>
       val dfColumnDataOMOP = spark.read.format("jdbc").options(Map("url" -> jdbcUrlOmopDB,
         "dbtable" -> s"(SELECT column_name  FROM information_schema.columns WHERE table_schema = 'public'  AND table_name  = '$tableName') vocab_alias")
       ).load()
-      val columnList = dfColumnDataOMOP.select("column_name").map(_.getString(0)).collect.toList
-      addToResult(columnList,resColumnDataOMOP)
-    }
+      val columnList: List[String] = dfColumnDataOMOP.select("column_name").map(_.getString(0)).collect.toList
+      columnList
+    }.sorted
 
-    //store all the columns of all tables in a final dataframe for omopcdw database
-    var resColumnDataOMOPCDW = new ListBuffer[String]()
-
-    for(i <- 0 until tableListOMOPCDW.length)
-    {
-      var tableName = tableListOMOPCDW(i)
+    val resColumnDataOMOPCDW = tableListOMOPCDW.flatMap { tableName =>
       val dfColumnDataOMOPCDW = spark.read.format("jdbc").options(Map("url" -> jdbcUrlOmopCDWDB,
         "dbtable" -> s"(SELECT column_name  FROM information_schema.columns WHERE table_schema = 'public'  AND table_name  = '$tableName') vocab_alias")
       ).load()
       val columnList = dfColumnDataOMOPCDW.select("column_name").map(_.getString(0)).collect.toList
-      addToResult(columnList,resColumnDataOMOPCDW)
-    }
+      columnList
+    }.sorted
 
-    var resListOMOP = resColumnDataOMOP.toList.sorted
-    var resListOMOPCDW = resColumnDataOMOPCDW.toList.sorted
-    var resColumnManipulated = new ListBuffer[String]()
+    val resColumnManipulated = resColumnDataOMOPCDW.map(perturbString)
 
-    manipulateColValues(resListOMOPCDW,resColumnManipulated)
-    var manColValues = resColumnManipulated.toList
-
-    var j = 0
-    var i = 0
-
-    while(i < resListOMOP.length && j < manColValues.length)
-    {
-      print(resListOMOP(i).toString + "   " + manColValues(j).toString + " ")
-      print(distanceBetweenColumns(resListOMOP(i).toString,manColValues(j).toString))
-      println("")
-      i = i+1
-      j = j+1
-    }
+    resColumnDataOMOP.zip(resColumnManipulated)
+      .foreach{ case (a, b) =>
+        println(s"$a   $b -> ${distanceBetweenColumns(a, b)}")
+      }
 
   }
+
+  def perturbString(s: String): String = s.reverse
 
   //Levenshtein distance metric implemented using dynamic programming instead of recursion technique used in the git repo.
   def distanceBetweenColumns(string1: String, string2: String): Int = {
@@ -113,23 +79,6 @@ object jdbcSimple {
     dp(string1.length)(string2.length)
   }
 
-  //function to add the column names to a final list
-  def addToResult(strings: scala.List[String], resBuffer: ListBuffer[String]): Unit =
-  {
-    for(i <- 0 until strings.length)
-      {
-        resBuffer += strings(i)
-      }
-  }
-
-  //function to manipulate omop column values so that there will be a difference in the column names
-  def manipulateColValues(strings: scala.List[String], revBuffer: ListBuffer[String]): Unit =
-  {
-    for(i <- 0 until strings.length)
-      {
-        revBuffer += strings(i).reverse
-      }
-  }
 
   def main(args: Array[String]): Unit = {
 
