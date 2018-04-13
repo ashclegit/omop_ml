@@ -21,24 +21,6 @@ import java.io.{BufferedWriter, FileWriter}
 
 object jdbcSimple {
 
-  def main(args: Array[String]): Unit = {
-
-
-    Class.forName("org.postgresql.Driver")
-    val jdbcUrlOmopDB  = "jdbc:postgresql://localhost:5432/omop_postgres"
-    val jdbcUrlOmopCDWDB = "jdbc:postgresql://localhost:5432/omop_postgres1"
-
-
-    //create a spark session
-    val spark = SparkSession
-      .builder()
-      .appName("calculate distance")
-      .config("spark.master", "local")
-      .getOrCreate()
-
-    collectAndPrintDistance(spark,jdbcUrlOmopDB,jdbcUrlOmopCDWDB)
-  }
-
   def collectAndPrintDistance(spark: SparkSession , jdbcUrlOmopDB: String, jdbcUrlOmopCDWDB: String): Unit =
   {
     import spark.implicits._
@@ -147,6 +129,24 @@ object jdbcSimple {
       {
         revBuffer += strings(i).reverse
       }
+  }
+
+  def main(args: Array[String]): Unit = {
+
+
+    Class.forName("org.postgresql.Driver")
+    val jdbcUrlOmopDB  = "jdbc:postgresql://localhost:5432/omop_postgres"
+    val jdbcUrlOmopCDWDB = "jdbc:postgresql://localhost:5432/omop_postgres1"
+
+
+    //create a spark session
+    val spark = SparkSession
+      .builder()
+      .appName("calculate distance")
+      .config("spark.master", "local")
+      .getOrCreate()
+
+    collectAndPrintDistance(spark,jdbcUrlOmopDB,jdbcUrlOmopCDWDB)
   }
 
 }
