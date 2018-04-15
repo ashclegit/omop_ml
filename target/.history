@@ -1,0 +1,3 @@
+sbt install
+install
+run
