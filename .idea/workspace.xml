@@ -1,43 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acac8e83-9f82-43fc-b1d6-a419692fd2db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala" />
+    <list default="true" id="acac8e83-9f82-43fc-b1d6-a419692fd2db" name="Default" comment="Merge branch 'master' of https://github.com/ashclegit/omop_ml&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b.cache&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05.cache&#10;#&#9;project/target/config-classes/$57b88afb726dfe9b06ee$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5.cache&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99.cache&#10;#&#9;project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99$.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99.cache&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239.cache&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-docs.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-optional.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-plugin.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-pom.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-provided.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-scala-tool.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-sources.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test.xml&#10;#&#9;project/target/streams/$global/ivyConfiguration/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/output&#10;#&#9;project/target/streams/compile/compileIncremental/$global/streams/out&#10;#&#9;project/target/streams/compile/copyResources/$global/streams/out&#10;#&#9;project/target/streams/compile/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/managedClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/fullClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/managedClasspath/$global/streams/export&#10;#&#9;src/main/scala/distance/jdbcSimple.scala&#10;#&#9;target/.history&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple.class&#10;#&#9;target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_10_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_1_3_9_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_12_0_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_jamesmurty_utils_java_xmlbuilder_1_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_rockymadden_stringmetric_stringmetric_core_0_25_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_2_10_0_8_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_java_0_8_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_univocity_univocity_parsers_2_2_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_9_9_Final_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_all_4_0_43_Final_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_annotation_javax_annotation_api_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_mail_mail_1_4_7_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__mx4j_mx4j_3_0_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_iharder_base64_2_3_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_9_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_razorvine_pyrolite_4_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_5_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_1_7_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_client_2_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_framework_2_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_6_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_6_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_3_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_3_3_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_sql_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_10_2_2_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_bouncycastle_bcprov_jdk15on_1_51_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_htrace_htrace_core_3_0_4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_javassist_javassist_3_18_1_GA_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_10_3_2_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_10_3_2_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_jackson_2_10_3_2_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_10_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_10_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_10_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_10_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_5_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__postgresql_postgresql_9_1_901_jdbc4_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/omopdistance-build.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/omopdistance.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0398887f7fac07147ef6$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0398887f7fac07147ef6$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0398887f7fac07147ef6.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0398887f7fac07147ef6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$13e3da848e8cad62b4f7$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$13e3da848e8cad62b4f7$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$13e3da848e8cad62b4f7.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$13e3da848e8cad62b4f7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24da5ef434d09314ef0c$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24da5ef434d09314ef0c$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24da5ef434d09314ef0c.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24da5ef434d09314ef0c.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$337bd1d9227f722ab107$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$337bd1d9227f722ab107$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$337bd1d9227f722ab107.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$337bd1d9227f722ab107.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8208a8f160d167c2db78$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8208a8f160d167c2db78$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8208a8f160d167c2db78.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8208a8f160d167c2db78.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9c39dbd4abe7925f7d66$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9c39dbd4abe7925f7d66.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9c39dbd4abe7925f7d66.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9fc739804bc08220f93e$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9fc739804bc08220f93e$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9fc739804bc08220f93e.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9fc739804bc08220f93e.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e35d1c506df7479e90d9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11d0009a16726326861b$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$11d0009a16726326861b$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11d0009a16726326861b.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$11d0009a16726326861b.cache" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a9b0e0550ad1e137c05$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$3a9b0e0550ad1e137c05$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a9b0e0550ad1e137c05.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$3a9b0e0550ad1e137c05.cache" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$57b88afb726dfe9b06ee$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$57b88afb726dfe9b06ee$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5f57e0360463276bb0d5$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$5f57e0360463276bb0d5$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5f57e0360463276bb0d5.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$5f57e0360463276bb0d5.cache" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c2568f827141d121a99$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$8c2568f827141d121a99$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c2568f827141d121a99.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$8c2568f827141d121a99.cache" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$972528826127dac5be99$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$972528826127dac5be99$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$972528826127dac5be99.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$972528826127dac5be99.cache" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$afbe722ceb5a39017239$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$afbe722ceb5a39017239$.class" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$afbe722ceb5a39017239.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$afbe722ceb5a39017239.cache" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml" />
@@ -53,36 +199,108 @@
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-sources.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-omopdistance-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" afterPath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$addToResult$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$collectAndPrintDistance$1$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$collectAndPrintDistance$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$collectAndPrintDistance$2$$anonfun$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$collectAndPrintDistance$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$manipulateColValues$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/omopdistance$sources_2.10/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/omopdistance$sources_2.10/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/omopdistance_2.10/0.1/resolved.xml.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/omopdistance_2.10/0.1/resolved.xml.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-docs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-sources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance$sources_2.10-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-compile-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-compile.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-docs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-optional.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-plugin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-provided.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-runtime-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-runtime.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-scala-tool.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-sources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-test-internal.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-omopdistance_2.10-test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/connectToPostgres$$anonfun$distanceBetweenColumns$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/connectToPostgres$$anonfun$distanceBetweenColumns$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/connectToPostgres$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/connectToPostgres$$anonfun$distanceBetweenColumns$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/connectToPostgres$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/connectToPostgres.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,16 +318,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="connectToPostgres.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="51" />
-              <folding>
-                <element signature="e#18#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +340,8 @@
       <file leaf-file-name="jdbcSimple.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+            <state relative-caret-position="268">
+              <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
               <folding>
                 <element signature="e#18#82#0" expanded="true" />
               </folding>
@@ -130,7 +353,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding>
                 <element signature="e#18#82#0" expanded="true" />
               </folding>
@@ -373,6 +596,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="omopdistance-build" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -430,30 +665,6 @@
   </component>
   <component name="SbtLocalSettings">
     <option name="lastUpdateTimestamp" value="1522979298379" />
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="omopDistance" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="omopdistance" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="omopdistance-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -480,20 +691,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38210398" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38210398" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -502,10 +711,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -543,6 +754,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/ashclegit/omop_ml&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b.cache&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05.cache&#10;#&#9;project/target/config-classes/$57b88afb726dfe9b06ee$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5.cache&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99.cache&#10;#&#9;project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99$.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99.cache&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239.cache&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-docs.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-optional.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-plugin.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-pom.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-provided.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-scala-tool.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-sources.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test.xml&#10;#&#9;project/target/streams/$global/ivyConfiguration/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/output&#10;#&#9;project/target/streams/compile/compileIncremental/$global/streams/out&#10;#&#9;project/target/streams/compile/copyResources/$global/streams/out&#10;#&#9;project/target/streams/compile/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/managedClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/fullClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/managedClasspath/$global/streams/export&#10;#&#9;src/main/scala/distance/jdbcSimple.scala&#10;#&#9;target/.history&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple.class&#10;#&#9;target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ashclegit/omop_ml&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b.cache&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05.cache&#10;#&#9;project/target/config-classes/$57b88afb726dfe9b06ee$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5.cache&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99.cache&#10;#&#9;project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99$.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99.cache&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239.cache&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-docs.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-optional.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-plugin.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-pom.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-provided.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-scala-tool.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-sources.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test.xml&#10;#&#9;project/target/streams/$global/ivyConfiguration/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/output&#10;#&#9;project/target/streams/compile/compileIncremental/$global/streams/out&#10;#&#9;project/target/streams/compile/copyResources/$global/streams/out&#10;#&#9;project/target/streams/compile/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/managedClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/fullClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/managedClasspath/$global/streams/export&#10;#&#9;src/main/scala/distance/jdbcSimple.scala&#10;#&#9;target/.history&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple.class&#10;#&#9;target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -552,11 +767,45 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding>
+            <element signature="e#18#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#18#58#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -582,9 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#58#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,9 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#58#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,9 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#18#58#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,18 +904,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="51" />
-          <folding>
-            <element signature="e#18#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding>
             <element signature="e#18#82#0" expanded="true" />
           </folding>
@@ -681,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        <state relative-caret-position="268">
+          <caret line="110" column="28" lean-forward="true" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
           <folding>
             <element signature="e#18#82#0" expanded="true" />
           </folding>
