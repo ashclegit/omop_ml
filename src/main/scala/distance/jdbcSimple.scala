@@ -152,7 +152,7 @@ object jdbcSimple {
 
     Class.forName("org.postgresql.Driver")
     val jdbcUrlOmopDB  = "jdbc:postgresql://localhost:5432/omop_postgres"
-    val jdbcUrlOmopCDWDB = "jdbc:postgresql://localhost:5432/omop_postgres"
+    val jdbcUrlOmopCDWDB = "jdbc:postgresql://localhost:5432/omop_postgres1"
 
 
     //create a spark session

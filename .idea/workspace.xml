@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acac8e83-9f82-43fc-b1d6-a419692fd2db" name="Default" comment="Merge branch 'master' of https://github.com/ashclegit/omop_ml&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b.cache&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05.cache&#10;#&#9;project/target/config-classes/$57b88afb726dfe9b06ee$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5.cache&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99.cache&#10;#&#9;project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99$.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99.cache&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239.cache&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-docs.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-optional.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-plugin.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-pom.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-provided.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-scala-tool.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-sources.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test.xml&#10;#&#9;project/target/streams/$global/ivyConfiguration/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/output&#10;#&#9;project/target/streams/compile/compileIncremental/$global/streams/out&#10;#&#9;project/target/streams/compile/copyResources/$global/streams/out&#10;#&#9;project/target/streams/compile/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/managedClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/fullClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/managedClasspath/$global/streams/export&#10;#&#9;src/main/scala/distance/jdbcSimple.scala&#10;#&#9;target/.history&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple.class&#10;#&#9;target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" afterPath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1$$anonfun$5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1$$anonfun$apply$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +44,8 @@
       <file leaf-file-name="jdbcSimple.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="147" column="3" lean-forward="true" selection-start-line="117" selection-start-column="2" selection-end-line="147" selection-end-column="3" />
+            <state relative-caret-position="179">
+              <caret line="147" column="3" lean-forward="false" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
               <folding>
                 <element signature="e#18#82#0" expanded="true" />
               </folding>
@@ -72,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -82,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jaroDistanceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-253">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#18#82#0" expanded="true" />
               </folding>
@@ -134,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.java" />
         <option value="$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/distance/jaroDistanceImpl.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
       </list>
     </option>
   </component>
@@ -833,7 +818,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#18#82#0" expanded="true" />
           </folding>
@@ -843,7 +828,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jaroDistanceImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-253">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -851,15 +836,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="147" column="3" lean-forward="true" selection-start-line="117" selection-start-column="2" selection-end-line="147" selection-end-column="3" />
+        <state relative-caret-position="179">
+          <caret line="147" column="3" lean-forward="false" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
           <folding>
             <element signature="e#18#82#0" expanded="true" />
           </folding>
