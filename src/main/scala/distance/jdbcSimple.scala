@@ -7,6 +7,8 @@ import collection.mutable._
 import scala.collection.mutable
 import scala.math.min
 
+//import com.rockymadden.stringmetric.similarity.JaroWinklerMetric
+
 
 object jdbcSimple {
 
@@ -52,10 +54,14 @@ object jdbcSimple {
           val omopList: List[String] = tableToColumnMapOMOP.get(key).toList.flatten
           val cdwList: List[String] = tableToColumnMapOMOPCDW.get(key).toList.flatten
           val cdwManip = cdwList.map(perturbString)
+          println("******************")
+          println(key)
+          println("******************")
           omopList.zip(cdwManip)
             .foreach{ case (a, b) =>
-              println(s"$a   $b -> ${distanceBetweenColumns(a, b)}")
+              println(s"$a   $b -> ${calculateJaroWinker(a, b)}")
             }
+          println("")
         }
     }
   }
@@ -76,8 +82,11 @@ object jdbcSimple {
   def perturbString(s: String): String = s.reverse
 
   //Levenshtein distance metric implemented using dynamic programming instead of recursion technique used in the git repo.
-  def distanceBetweenColumns(string1: String, string2: String): Int = {
-    val dp = Array.ofDim[Int](string1.length + 1, string2.length + 1)
+  /*def distanceBetweenColumns(col1: String, col2: String): Option[Double] = {
+    val distance : Option[Double] = JaroWinklerMetric.compare(col1, col2)
+
+
+    /*val dp = Array.ofDim[Int](string1.length + 1, string2.length + 1)
     for (i <- 0 to string1.length)
     {
       dp(i)(0) = i
@@ -96,16 +105,54 @@ object jdbcSimple {
         dp(i)(j) = min(min(dp(i - 1)(j), dp(i)(j - 1)), dp(i - 1)(j - 1)) + 1
       }
     }
-    dp(string1.length)(string2.length)
-  }
+    dp(string1.length)(string2.length)*/
+  }*/
 
+
+  /*def extractDouble(x: Any): Option[Double] = x match {
+    case n: java.lang.Number => Some(n.doubleValue())
+    case _ => None
+  }*/
+
+  //Jaro Winkler Distance Implementation
+  def calculateJaroWinker(columnA: String, columnB: String): Double = {
+    val columnA_len = columnA.length
+    val columnB_len = columnB.length
+    if (columnA_len == 0 && columnB_len == 0) return 1.0
+    val match_distance = Math.max(columnA_len, columnB_len) / 2 - 1
+    val columnAMatchCount = Array.ofDim[Boolean](columnA_len)
+    val columnBMatchCount = Array.ofDim[Boolean](columnB_len)
+    var matches = 0
+    for (i <- 0 until columnA_len) {
+      val start = Math.max(0, i - match_distance)
+      val end = Math.min(i + match_distance + 1, columnB_len)
+      start until end find { j => !columnBMatchCount(j) && columnA(i) == columnB(j) } match {
+        case Some(j) =>
+          columnAMatchCount(i) = true
+          columnBMatchCount(j) = true
+          matches += 1
+        case None =>
+      }
+    }
+    if (matches == 0) return 0.0
+    var t = 0.0
+    var k = 0
+    0 until columnA_len filter columnAMatchCount foreach { i =>
+      while (!columnBMatchCount(k)) k += 1
+      if (columnA(i) != columnB(k)) t += 0.5
+      k += 1
+    }
+
+    val m = matches.toDouble
+    (m / columnA_len + m / columnB_len + (m - t) / m) / 3.0
+  }
 
   def main(args: Array[String]): Unit = {
 
 
     Class.forName("org.postgresql.Driver")
     val jdbcUrlOmopDB  = "jdbc:postgresql://localhost:5432/omop_postgres"
-    val jdbcUrlOmopCDWDB = "jdbc:postgresql://localhost:5432/omop_postgres1"
+    val jdbcUrlOmopCDWDB = "jdbc:postgresql://localhost:5432/omop_postgres"
 
 
     //create a spark session
