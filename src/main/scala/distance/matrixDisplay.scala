@@ -4,7 +4,7 @@ import java.util.ArrayList
 import java.lang.StringBuilder
 import scala.collection.JavaConversions._
 
-class ConsoleDisplay(columnHeadings: ArrayList[String],
+class matrixDisplay(columnHeadings: ArrayList[String],
                      rowDataList: ArrayList[ArrayList[String]]) {
 
   private val dataSeparator: Int = 4

@@ -5,7 +5,7 @@ import org.apache.spark.sql.functions;
 //import com.rockymadden.stringmetric.similarity.LevenshteinMetric
 import scala.math.min
 
-object connectToPostgres {
+object levenshteinTest {
 
   def main(args: Array[String]): Unit = {
 
@@ -50,11 +50,11 @@ object connectToPostgres {
 
     //print the individual distances between two columns
     while(i < a1.length && j < a2.length)
-      {
-        println(distanceBetweenColumns(a1(i).toString,a2(j).toString))
-        i = i+1
-        j = j+1
-      }
+    {
+      println(distanceBetweenColumns(a1(i).toString,a2(j).toString))
+      i = i+1
+      j = j+1
+    }
 
   }
 
@@ -62,22 +62,22 @@ object connectToPostgres {
   def distanceBetweenColumns(string1: String, string2: String): Int = {
     val dp = Array.ofDim[Int](string1.length + 1, string2.length + 1)
     for (i <- 0 to string1.length)
-      {
-        dp(i)(0) = i
-      }
+    {
+      dp(i)(0) = i
+    }
     for (j <- 0 to string2.length)
-      {
-        dp(0)(j) = j
-      }
+    {
+      dp(0)(j) = j
+    }
     for (j <- 1 to string2.length; i <- 1 to string1.length) {
       if (string1(i - 1) == string2(j - 1))
-        {
-          dp(i)(j) = dp(i - 1)(j - 1)
-        }
+      {
+        dp(i)(j) = dp(i - 1)(j - 1)
+      }
       else
-        {
-          dp(i)(j) = min(min(dp(i - 1)(j), dp(i)(j - 1)), dp(i - 1)(j - 1)) + 1
-        }
+      {
+        dp(i)(j) = min(min(dp(i - 1)(j), dp(i)(j - 1)), dp(i - 1)(j - 1)) + 1
+      }
     }
     dp(string1.length)(string2.length)
   }

@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acac8e83-9f82-43fc-b1d6-a419692fd2db" name="Default" comment="Merge branch 'master' of https://github.com/ashclegit/omop_ml&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b.cache&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05.cache&#10;#&#9;project/target/config-classes/$57b88afb726dfe9b06ee$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5.cache&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99.cache&#10;#&#9;project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99$.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99.cache&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239.cache&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-docs.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-optional.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-plugin.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-pom.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-provided.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-scala-tool.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-sources.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test.xml&#10;#&#9;project/target/streams/$global/ivyConfiguration/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/output&#10;#&#9;project/target/streams/compile/compileIncremental/$global/streams/out&#10;#&#9;project/target/streams/compile/copyResources/$global/streams/out&#10;#&#9;project/target/streams/compile/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/managedClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/fullClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/managedClasspath/$global/streams/export&#10;#&#9;src/main/scala/distance/jdbcSimple.scala&#10;#&#9;target/.history&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple.class&#10;#&#9;target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/distance/levenshteinTest.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/distance/matrixDisplay.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/distance/schemaMapper.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tableDisplay/ConsoleTable.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/ConsoleDisplay.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/jaroDistanceImpl.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$3$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$5$$anonfun$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$collectAndPrintDistance$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$distanceBetweenColumns$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$distanceBetweenColumns$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$$anonfun$distanceBetweenColumns$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/testJdbcSimple.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,21 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="connectToPostgres.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
+      <file leaf-file-name="schemaMapper.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/schemaMapper.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbcSimple.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="e#18#44#0" expanded="true" />
               </folding>
@@ -52,11 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleDisplay.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/ConsoleDisplay.scala">
+      <file leaf-file-name="levenshteinTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/levenshteinTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="e#18#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matrixDisplay.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/matrixDisplay.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               <folding>
                 <element signature="e#18#44#0" expanded="true" />
               </folding>
@@ -64,34 +94,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleJaroTest.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simpleJaroTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jaroDistanceImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jaroDistanceImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testJdbcSimple.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-321">
-              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="e#18#82#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +147,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/distance/ConsoleDisplay.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/distance/matrixDisplay.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/distance/schemaMapper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/distance/levenshteinTest.scala" />
       </list>
     </option>
   </component>
@@ -248,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jdbcSimple">
+  <component name="RunManager" selected="Application.schemaMapper">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -322,14 +333,14 @@
       <module name="omopdistance" />
       <envs />
     </configuration>
-    <configuration name="simpleJaroTest" type="Application" factoryName="Application" temporary="true">
+    <configuration name="schemaMapper" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="distance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="distance.simpleJaroTest" />
+      <option name="MAIN_CLASS_NAME" value="distance.schemaMapper" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -422,17 +433,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.jdbcSimple" />
       <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="2" class="java.lang.String" itemvalue="Application.simpleJaroTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ConsoleTable" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConsoleTable (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ConsoleTable" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConsoleTable (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.schemaMapper" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.jdbcSimple" />
-        <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ConsoleTable (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConsoleTable" />
-        <item index="4" class="java.lang.String" itemvalue="Application.simpleJaroTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.schemaMapper" />
+        <item index="1" class="java.lang.String" itemvalue="Application.jdbcSimple" />
+        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ConsoleTable (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ConsoleTable" />
       </list>
     </recent_temporary>
   </component>
@@ -522,14 +533,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.42846924" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.42632332" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.82950425" sideWeight="0.12017167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1318017" sideWeight="0.14020029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.82950425" sideWeight="0.87982833" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1318017" sideWeight="0.85979974" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -565,32 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jaroDistanceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/testJdbcSimple.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -619,9 +604,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -629,9 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,9 +636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,9 +652,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
           <caret line="110" column="72" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="72" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,9 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,9 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="65" lean-forward="false" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,9 +708,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,9 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="135" column="3" lean-forward="true" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -797,9 +764,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="104" column="3" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
-          <folding>
-            <element signature="e#18#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,9 +879,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-321">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -924,14 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
           <caret line="173" column="21" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -944,31 +899,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/ConsoleDisplay.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/connectToPostgres.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/schemaMapper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="e#18#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/levenshteinTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/matrixDisplay.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           <folding>
             <element signature="e#18#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/distance/simpleJaroTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

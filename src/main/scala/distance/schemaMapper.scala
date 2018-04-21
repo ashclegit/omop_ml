@@ -7,10 +7,10 @@ import com.rockymadden.stringmetric.similarity.JaroWinklerMetric
 import collection.mutable._
 import scala.collection.mutable
 import scala.math.min
-import distance.ConsoleDisplay
+import distance.matrixDisplay
 
 
-object jdbcSimple {
+object schemaMapper {
 
   def collectAndPrintDistance(spark: SparkSession , jdbcUrlOmopDB: String, jdbcUrlOmopCDWDB: String): Unit =
   {
@@ -71,8 +71,8 @@ object jdbcSimple {
               row.add(distance)
               content.add(row)
             }
-          val ct: ConsoleDisplay = new ConsoleDisplay(headersIn,content)
-          ct.dataDisplay()
+          val md: matrixDisplay = new matrixDisplay(headersIn,content)
+          md.dataDisplay()
           println("")
         }
     }
