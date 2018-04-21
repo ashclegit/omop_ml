@@ -1,15 +1,13 @@
 package distance
 
+import java.util.ArrayList
 import org.apache.spark.sql.{DataFrame, SparkSession, functions}
 import java.util.Properties
-
 import com.rockymadden.stringmetric.similarity.JaroWinklerMetric
-
 import collection.mutable._
 import scala.collection.mutable
 import scala.math.min
-
-//import com.rockymadden.stringmetric.similarity.JaroWinklerMetric
+import distance.ConsoleDisplay
 
 
 object jdbcSimple {
@@ -50,19 +48,31 @@ object jdbcSimple {
   //function to extract column lists for each of the tables and calculate distance between the column names
   def calculateColumnDistance(tableToColumnMapOMOP: mutable.HashMap[String, List[String]], tableToColumnMapOMOPCDW: mutable.HashMap[String, List[String]]): Unit =
   {
+    val headersIn: ArrayList[String] = new ArrayList[String]()
+    headersIn.add("TableName")
+    headersIn.add("OMOPColumn")
+    headersIn.add("CDWColumn")
+    headersIn.add("JaroWinklerDistance")
+
     tableToColumnMapOMOPCDW.keySet.foreach{
       case (key) =>
         if(tableToColumnMapOMOP.contains(key)) {
           val omopList: List[String] = tableToColumnMapOMOP.get(key).toList.flatten
           val cdwList: List[String] = tableToColumnMapOMOPCDW.get(key).toList.flatten
+          val content: ArrayList[ArrayList[String]] = new ArrayList[ArrayList[String]]()
           val cdwManip = cdwList.map(perturbString)
-          println("******************")
-          println(key)
-          println("******************")
           omopList.zip(cdwManip)
             .foreach{ case (a, b) =>
-              println(s"$a   $b -> ${JaroWinklerMetric.compare(a.toCharArray, b.toCharArray)}")
+              val distance : String = JaroWinklerMetric.compare(a.toCharArray, b.toCharArray).toString
+              val row: ArrayList[String] = new ArrayList[String]()
+              row.add(key)
+              row.add(a)
+              row.add(b)
+              row.add(distance)
+              content.add(row)
             }
+          val ct: ConsoleDisplay = new ConsoleDisplay(headersIn,content)
+          ct.dataDisplay()
           println("")
         }
     }
@@ -83,44 +93,8 @@ object jdbcSimple {
   //function to mamipulate and reverse the column names
   def perturbString(s: String): String = s.reverse
 
-  //Levenshtein distance metric implemented using dynamic programming instead of recursion technique used in the git repo.
-  /*def distanceBetweenColumns(col1: String, col2: String): Option[Double] = {
-    val distance : Option[Double] = JaroWinklerMetric.compare(col1, col2)
-
-
-    /*val dp = Array.ofDim[Int](string1.length + 1, string2.length + 1)
-    for (i <- 0 to string1.length)
-    {
-      dp(i)(0) = i
-    }
-    for (j <- 0 to string2.length)
-    {
-      dp(0)(j) = j
-    }
-    for (j <- 1 to string2.length; i <- 1 to string1.length) {
-      if (string1(i - 1) == string2(j - 1))
-      {
-        dp(i)(j) = dp(i - 1)(j - 1)
-      }
-      else
-      {
-        dp(i)(j) = min(min(dp(i - 1)(j), dp(i)(j - 1)), dp(i - 1)(j - 1)) + 1
-      }
-    }
-    dp(string1.length)(string2.length)*/
-  }*/
-
-
-  /*def extractDouble(x: Any): Option[Double] = x match {
-    case n: java.lang.Number => Some(n.doubleValue())
-    case _ => None
-  }*/
-
-
-
 
   def main(args: Array[String]): Unit = {
-
 
     Class.forName("org.postgresql.Driver")
     val jdbcUrlOmopDB  = "jdbc:postgresql://localhost:5432/omop_postgres"
