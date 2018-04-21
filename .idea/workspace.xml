@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acac8e83-9f82-43fc-b1d6-a419692fd2db" name="Default" comment="Merge branch 'master' of https://github.com/ashclegit/omop_ml&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b$.class&#10;#&#9;project/target/config-classes/$11d0009a16726326861b.cache&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05$.class&#10;#&#9;project/target/config-classes/$3a9b0e0550ad1e137c05.cache&#10;#&#9;project/target/config-classes/$57b88afb726dfe9b06ee$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5$.class&#10;#&#9;project/target/config-classes/$5f57e0360463276bb0d5.cache&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99$.class&#10;#&#9;project/target/config-classes/$8c2568f827141d121a99.cache&#10;#&#9;project/target/config-classes/$972528826127dac5be99$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99$.class&#10;#&#9;project/target/config-classes/$972528826127dac5be99.cache&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$$anonfun$$sbtdef$1.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239$.class&#10;#&#9;project/target/config-classes/$afbe722ceb5a39017239.cache&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties&#10;#&#9;project/target/resolution-cache/default/omopdistance-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-compile.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-docs.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-optional.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-plugin.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-pom.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-provided.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-runtime.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-scala-tool.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-sources.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test-internal.xml&#10;#&#9;project/target/resolution-cache/reports/default-omopdistance-build-test.xml&#10;#&#9;project/target/streams/$global/ivyConfiguration/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/out&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs&#10;#&#9;project/target/streams/$global/update/$global/streams/update_cache_2.10/output&#10;#&#9;project/target/streams/compile/compileIncremental/$global/streams/out&#10;#&#9;project/target/streams/compile/copyResources/$global/streams/out&#10;#&#9;project/target/streams/compile/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/compile/managedClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/dependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/externalDependencyClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/fullClasspath/$global/streams/export&#10;#&#9;project/target/streams/runtime/managedClasspath/$global/streams/export&#10;#&#9;src/main/scala/distance/jdbcSimple.scala&#10;#&#9;target/.history&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$2.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3$$anonfun$apply$mcVI$sp$1.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$$anonfun$distanceBetweenColumns$3.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple$.class&#10;#&#9;target/scala-2.10/classes/distance/jdbcSimple.class&#10;#&#9;target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tableDisplay/ConsoleTable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/distance/ConsoleDisplay.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" afterPath="$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1$$anonfun$apply$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$$anonfun$calculateColumnDistance$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/distance/jdbcSimple$.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tableDisplay/ConsoleTable.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +43,8 @@
       <file leaf-file-name="jdbcSimple.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#18#44#0" expanded="true" />
               </folding>
@@ -67,18 +59,6 @@
               <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="e#18#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsoleTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tableDisplay/ConsoleTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="173" column="21" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -223,13 +203,6 @@
               <item name="omopDistance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omopDistance" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omopDistance" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="omopDistance" type="b2602c69:ProjectViewProjectNode" />
@@ -554,9 +527,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.64812577" sideWeight="0.12017167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.82950425" sideWeight="0.12017167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.64812577" sideWeight="0.87982833" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.82950425" sideWeight="0.87982833" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -951,9 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
           <caret line="173" column="21" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -993,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/distance/jdbcSimple.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#18#44#0" expanded="true" />
           </folding>
