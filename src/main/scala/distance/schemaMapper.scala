@@ -49,10 +49,10 @@ object schemaMapper {
   def calculateColumnDistance(tableToColumnMapOMOP: mutable.HashMap[String, List[String]], tableToColumnMapOMOPCDW: mutable.HashMap[String, List[String]]): Unit =
   {
     val headersIn: ArrayList[String] = new ArrayList[String]()
-    headersIn.add("TableName")
-    headersIn.add("OMOPColumn")
-    headersIn.add("CDWColumn")
-    headersIn.add("JaroWinklerDistance")
+    headersIn.add("TABLENAME")
+    headersIn.add("OMOP_COLUMN")
+    headersIn.add("CDW_COLUMN")
+    headersIn.add("DISTANCE_SCORE")
 
     tableToColumnMapOMOPCDW.keySet.foreach{
       case (key) =>
@@ -63,12 +63,12 @@ object schemaMapper {
           val cdwManip = cdwList.map(perturbString)
           omopList.zip(cdwManip)
             .foreach{ case (a, b) =>
-              val distance : String = JaroWinklerMetric.compare(a.toCharArray, b.toCharArray).toString
+              val distance : Option[Double] = JaroWinklerMetric.compare(a.toCharArray, b.toCharArray)
               val row: ArrayList[String] = new ArrayList[String]()
               row.add(key)
               row.add(a)
               row.add(b)
-              row.add(distance)
+              row.add(distance.get.toString)
               content.add(row)
             }
           val md: matrixDisplay = new matrixDisplay(headersIn,content)
